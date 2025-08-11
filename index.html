@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="JS스터디.css">
+    <script src="JS스터디.js"></script>
+    <title>캐롤과 그리스 여행</title>
+</head>
+<body>
+    <div>
+        <h1>캐롤과 함께 떠나는 그리스</h1>
+            <ol>    
+                <li>미코노스</li>
+                <li>자킨토스</li>
+                <li>아테네</li>
+            </ol>
+
+        <div>
+            <button onclick="setTheme('day')">그리스의 낮</button>
+            <button onclick="setTheme('night')">그리스의 밤</button>
+        </div>
+
+        <img id="greeceImage" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f9/51/mykonos.jpg?w=1400&h=1400&s=1" alt="미코노스타운">
+    </div>
+    <div>
+        <h2>그리스란?</h2>
+            <p>그리스는 남유럽과 서아시아[5]에 위치해있는 국가이다. 수도는 아테네(Αθήνα, Athens)다.
+            유럽 남부 발칸반도 남단에 위치한 국가로, 수천 개의 섬과 복잡한 해안선을 따라 에게해와 이오니아해, 지중해에 접해 있다.
+            <br>
+            <a href="https://namu.wiki/w/%EA%B7%B8%EB%A6%AC%EC%8A%A4">더 알아보기</a>
+            </p>
+            <h2>도시 알아보기</h2>
+            <div>
+                <input type="button" value="미코노스" onclick="alert('포카리스웨트!')">
+                <input type="button" value="자킨토스" onclick="alert('태양의 후예!')">
+                <input type="button" value="아테네" onclick="alert('너 자신을 알라')">
+                <br>
+                <h3>더 알아보고 싶은 곳은?</h3>
+                <input type="text" onchange="alert('직접 찾아보세요.')">
+            </div>
+    </div>
+      
+</body>
+</html>
