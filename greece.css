@@ -1,0 +1,32 @@
+body {
+  background: var(--bg, #ffffff);
+  color: var(--text, #111111);
+  transition: background 0.25s ease, color 0.25s ease;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+button {
+  padding: 8px 14px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  background: #f5f5f5;
+  cursor: pointer;
+}
+
+[data-theme="night"] button {
+  background: #222;
+  color: #eee;
+  border-color: #444;
+}
+
+#greeceImage {
+  width: 100%;
+  height: 500px;
+  display: block;
+  margin-top: 10px;
+}
