@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="JS스터디.css">
+    <script src="JS스터디.js"></script>
     <title>캐롤과 그리스 여행</title>
 </head>
 <body>
-    <div style="margin: 0 auto;">
+    <div>
         <h1>캐롤과 함께 떠나는 그리스</h1>
             <ol>    
                 <li>미코노스</li>
@@ -19,11 +20,8 @@
             <button onclick="setTheme('day')">그리스의 낮</button>
             <button onclick="setTheme('night')">그리스의 밤</button>
         </div>
-        <div style="display: flex;">
-        <div style="padding: 20px;"><input type="button" value="그리스의 낮" onclick="document.querySelector('body').style.backgroundColor='white'; document.querySelector('body').style.color=('black');" ></div>
-        <div style="padding: 20px;"><input type="button" value="그리스의 밤" onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color=('white');" ></div>
-            </div>
-        <img id="greeceImage" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f9/51/mykonos.jpg?w=1400&h=1400&s=1" alt="미코노스타운" style="width: max-content;">
+
+        <img id="greeceImage" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/f9/51/mykonos.jpg?w=1400&h=1400&s=1" alt="미코노스타운">
     </div>
     <div>
         <h2>그리스란?</h2>
@@ -42,6 +40,6 @@
                 <input type="text" onchange="alert('직접 찾아보세요.')">
             </div>
     </div>
-      <script src="script.js"></script>
+      
 </body>
 </html>

@@ -7,8 +7,8 @@ function setTheme(mode) {
     },
     night: {
       bg: "#000000",
-      text: "#ffffff",
-      img: "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/506000/506973-mykonos-town.jpg"
+      text: "#ffffff", 
+      img: "https://www.windsortour.co.kr/images/area_img/GR/ATH/GRATH3400554_0002.jpg?CMD=resize&width=100%"
     }
   };
 
